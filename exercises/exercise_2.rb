@@ -8,8 +8,7 @@ puts "----------"
 
 class Store < ActiveRecord::Base
   # store1 = Store.find_by(:name => 'Dano')
-  @store1 = Store.find_by(id: 1)
-  @store2 = Store.find_by(id: 2)
-  @store1.name = "Victoria"
-  @store1.save
+  @store3 = Store.find_by(id: 3)
+  @store3.destroy
+  puts Store.count
 end
