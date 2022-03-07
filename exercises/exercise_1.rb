@@ -1,5 +1,4 @@
 require_relative '../setup'
-require 'active_record'
 
 puts "Exercise 1"
 puts "----------"
